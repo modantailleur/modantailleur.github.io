@@ -315,35 +315,45 @@
           <div class="card-content">
             <div class="row">
               <div class="col s12 m2">
-                <a href="http://www.ls2n.fr/equipe/sims/?lang=en" target="_blank"><img alt="Zhiffy logo"
-                    src="/assets/img/mt-ls2n.jpeg" class="responsive-img center-block" /></a>
+                <a href="https://dcase.community/workshop2023/index" target="_blank"><img alt="Zhiffy logo"
+                    src="/assets/img/mt-dcase-2023.jpg" class="responsive-img center-block" /></a>
               </div>
               <!-- <div class="col s12 m10"> -->
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="http://www.ls2n.fr/equipe/sims/?lang=en" target="_blank"
-                      class="teal-text hoverline">LS2N - SIMS Team</a></span>
+                      class="teal-text hoverline">Spectral trancoder : using pretrained urban sound
+                      classifiers on undersampled spectral representations</a></span>
                 </p>
               </div>
             </div>
             <div class="role brown-text text-darken-2">Software Engineer</div>
             <ul>
               <li>
-                Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
-              </li>
-              <li>
-                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-such as login/sign up, view a product, add a product to cart, checkout the order, etc.
-              </li>
-              <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
-              <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
-              <li>
-                <b>Tools:</b> Python, Flask, MongoDB
+                Slow or fast third-octave bands representations (with a frame
+resp. every 1-s and 125-ms) have been a de facto standard for urban
+acoustics, used for example in long-term monitoring applications.
+It has the advantages of requiring few storage capabilities and of
+preserving privacy. As most audio classification algorithms take
+Mel spectral representations with very fast time weighting (ex. 10-
+ms) as input, very few studies have tackled classification tasks using
+other kinds of spectral representations of audio such as slow or fast
+third-octave spectra.
+In this paper, we present a convolutional neural network ar-
+chitecture for transcoding fast third-octave spectrograms into Mel
+spectrograms, so that it could be used as input for robust pre-trained
+models such as YAMNet or PANN models. Compared to training a
+model that would take fast third-octave spectrograms as input, this
+approach is more effective and requires less training effort. Even
+if a fast third-octave spectrogram is less precise both on time and
+frequency dimensions, experiments show that the proposed method
+still allows for classification accuracy of 62.4% on UrbanSound8k
+and 0.44 macro AUPRC on SONYC-UST.
               </li>
             </ul>
           </div>
           <div class="card-action">
-            <span>July 2020 - Nov 2020 | Hyderabad, India</span>
+            <span>Sept 2023 | Tampere, Finland</span>
           </div>
         </div>
 
